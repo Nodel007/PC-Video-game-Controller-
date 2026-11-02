@@ -7,6 +7,8 @@ A custom-designed PC gaming controller featuring a custom PCB, wireless connecti
 
 ## Overview
 
+![Controller Cad](images./PC_PRO_CAD.jpg)
+
 This project focuses on the design and development of a custom PC gaming controller built around the ESP32-S3 microcontroller.
 
 The controller is designed to combine traditional gamepad functionality with additional hardware capabilities, including gyroscopic motion sensing, Bluetooth connectivity, and USB-C wired operation.
