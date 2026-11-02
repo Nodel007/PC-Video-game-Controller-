@@ -38,7 +38,7 @@ The project currently focuses on hardware development, including circuit design,
 | Bluetooth | Wireless connectivity |
 | Rechargeable Battery | Portable power |
 
-![Controller_PCB_3D](images./PC_PRO_PCB_3D.jpg)
+![Controller_PCB_3D](images./PC_PRO_PCB_3D.png)
 
 ### Component Selection
 
