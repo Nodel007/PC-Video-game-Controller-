@@ -38,6 +38,8 @@ The project currently focuses on hardware development, including circuit design,
 | Bluetooth | Wireless connectivity |
 | Rechargeable Battery | Portable power |
 
+![Controller_PCB_3D](images./PC_PRO_PCB_3D.jpg)
+
 ### Component Selection
 
 **ESP32-S3 – Main Microcontroller**
@@ -63,21 +65,10 @@ The hardware design files include:
 - Component footprints
 - Supporting hardware design files
 
-## Mechanical Design
+![Controller_PCB](images./PC_PRO_PCB_F.jpg)
 
-The physical design of the controller is developed using CAD software.
+![Controller_Schematic](images./PC_PRO_Schematic.jpg)
 
-The CAD directory contains the 3D models and mechanical design files associated with the controller enclosure and components.
-
-## Technologies & Tools
-
-- **Microcontroller:** ESP32-S3
-- **Motion Sensor:** ICM-20948
-- **Battery Management:** BQ24074RGTT
-- **PCB Design:** KiCad
-- **Mechanical Design:** CAD software
-- **Connectivity:** Bluetooth LE and USB
-- **Programming:** Embedded C/C++ (planned)
 
 ## Repository Structure
 
