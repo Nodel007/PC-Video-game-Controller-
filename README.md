@@ -7,7 +7,7 @@ A custom-designed PC gaming controller featuring a custom PCB, wireless connecti
 
 ## Overview
 
-![Controller Cad](images./PC_PRO_CAD.jpg)
+![Controller_Render](images./PCPRO_RENDER.png)
 
 This project focuses on the design and development of a custom PC gaming controller built around the ESP32-S3 microcontroller.
 
@@ -69,6 +69,13 @@ The hardware design files include:
 
 ![Controller_Schematic](images./PC_PRO_Schematic.jpg)
 
+## Mechanical Design
+
+The physical design of the controller is developed using CAD software.
+
+The CAD directory contains the 3D models and mechanical design files associated with the controller enclosure and components.
+
+![Controller_CAD](images./PC_PRO_CAD.jpg)
 
 ## Repository Structure
 
