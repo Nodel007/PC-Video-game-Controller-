@@ -1,5 +1,6 @@
 # PC-Video-game-Controller-
 
+
 # Custom ESP32-S3 Gaming Controller
 
 A custom-designed PC gaming controller featuring a custom PCB, wireless connectivity, motion sensing, and a rechargeable battery system.
@@ -27,12 +28,27 @@ The project currently focuses on hardware development, including circuit design,
 | Component | Function |
 |---|---|
 | ESP32-S3 | Main microcontroller |
+| ICM-20948 | 9-axis motion tracking sensor |
+| BQ24074RGTT | Battery charging and power management |
 | Analog Sticks | Analog directional input |
 | Physical Buttons | Standard gamepad input |
-| Gyroscope | Motion and orientation sensing |
 | USB-C | Wired connectivity |
 | Bluetooth | Wireless connectivity |
 | Rechargeable Battery | Portable power |
+
+### Component Selection
+
+**ESP32-S3 – Main Microcontroller**
+
+Selected for its ease of hardware integration, available GPIO and peripheral interfaces, and built-in wireless and USB capabilities. Its Bluetooth LE support and native USB functionality make it a convenient choice for a controller designed to support both wireless and wired PC connectivity.
+
+**ICM-20948 – Motion Sensor**
+
+A 9-axis motion tracking sensor combining a gyroscope, accelerometer, and magnetometer. It was selected to provide motion-sensing capabilities in a single integrated component, simplifying the overall circuit design.
+
+**BQ24074RGTT – Battery Management**
+
+A single-cell lithium-ion battery charger with integrated power-path management. It was selected to simplify the rechargeable battery implementation by combining charging and power management functionality into one IC.
 
 ## Hardware Design
 
@@ -54,9 +70,11 @@ The CAD directory contains the 3D models and mechanical design files associated 
 ## Technologies & Tools
 
 - **Microcontroller:** ESP32-S3
+- **Motion Sensor:** ICM-20948
+- **Battery Management:** BQ24074RGTT
 - **PCB Design:** KiCad
 - **Mechanical Design:** CAD software
-- **Connectivity:** Bluetooth and USB
+- **Connectivity:** Bluetooth LE and USB
 - **Programming:** Embedded C/C++ (planned)
 
 ## Repository Structure
